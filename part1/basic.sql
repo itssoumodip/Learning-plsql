@@ -1,7 +1,10 @@
 DECLARE
   a INTEGER;
 BEGIN
-  a := :a;
+  a := &a;
   DBMS_OUTPUT.PUT_LINE('The value of a is: ' || a);
 END;
 /
+
+
+-- dara MAA PHH
